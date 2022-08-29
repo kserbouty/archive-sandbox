@@ -1,0 +1,17 @@
+{
+    "name": "archive/sandbox-php",
+    "autoload": {
+        "psr-4": {
+            "Sandbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Serbouty",
+            "email": "kserbouty.dev@protonmail.com"
+        }
+    ],
+    "require": {
+        "php-ds/php-ds": "^1.4"
+    }
+}

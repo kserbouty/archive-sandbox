@@ -1,0 +1,10 @@
+# Default
+*               text=auto
+# Explicit
+*.json          text eol=lf
+*.lock          text eol=lf
+*.md            text eol=lf
+*.php           text eol=lf
+*.phtml         text eol=lf
+# Git
+.gitattributes  text eol=lf
