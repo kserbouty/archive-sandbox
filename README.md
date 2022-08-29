@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Built-in PHP functions returned on plain HTML, for learning purpose.
+Built-in PHP functions returned on plain HTML to test algorithms and data structures.
 
 ### Resources
 
