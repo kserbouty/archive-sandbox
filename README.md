@@ -1,26 +1,5 @@
 # Sandbox PHP
 
-## Table of Contents
-
-- [Sandbox PHP](#sandbox-php)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-    - [Resources](#resources)
-  - [Installation](#installation)
-    - [Requirements](#requirements)
-    - [Local Installation](#local-installation)
-  - [Authors](#authors)
-  - [License](#license)
-
-## Introduction
-
-Built-in PHP functions returned on plain HTML to test algorithms and data structures.
-
-### Resources
-
-- [PHP Manual](https://www.php.net/manual/en/)
-- [Algorithms - Binary Search](https://www.geeksforgeeks.org/binary-search-php/)
-
 ## Installation
 
 ### Requirements
