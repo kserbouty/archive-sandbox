@@ -1,17 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace Sandbox;
-
-const HTML_BR = '<br>';
-const HTML_PRE = '<pre>';
-const HTML_PRE_END = '</pre>';
-
-$uri = $_SERVER['REQUEST_URI'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,25 +13,31 @@ $uri = $_SERVER['REQUEST_URI'];
         <nav>
             <strong>Sandbox PHP</strong>
             <ul>
-                <a href="/sandbox-php/arrays">Arrays</a>
-                <a href="/sandbox-php/constants">Constants</a>
-                <a href="/sandbox-php/functions">Functions</a>
-                <a href="/sandbox-php/operators">Operators</a>
-                <a href="/sandbox-php/types">Types</a>
-                <a href="/sandbox-php/variables">Variables</a>
                 <hr>
-                <a href="/sandbox-php/date-time">Date Time</a>
+                <a href="../src/views/arrays.php">Arrays</a>
+                <br>
+                <a href="../src/views/constants.php">Constants</a>
+                <br>
+                <a href="../src/views/functions.php">Functions</a>
+                <br>
+                <a href="../src/views/operators.php">Operators</a>
+                <br>
+                <a href="../src/views/types.php">Types</a>
+                <br>
+                <a href="../src/views/variables.php">Variables</a>
                 <hr>
-                <a href="/sandbox-php/control-structures">Control Structures</a>
-                <a href="/sandbox-php/queue">Queue</a>
-                <a href="/sandbox-php/stack">Stack</a>
-                <a href="/sandbox-php/algorithms">Algorithms</a>
+                <a href="../src/views/date-time.php">Date Time</a>
+                <hr>
+                <a href="../src/views/control-structures.php">Control Structures</a>
+                <hr>
+                <a href="../src/views/queue.php">Queue</a>
+                <br>
+                <a href="../src/views/stack.php">Stack</a>
+                <hr>
+                <a href="../src/views/algorithms.php">Algorithms</a>
                 <hr>
             </ul>
         </nav>
-
-        <?php include('../src/routes/routes.php') ?>
-
     </main>
 </body>
 

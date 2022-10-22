@@ -1,6 +1,6 @@
 <?php
 
-namespace Sandbox\Basics;
+namespace Sandbox\Constants;
 
 trait BaseTrait
 {

@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sandbox\DataStructures;
-
-require '../vendor/autoload.php';
+require __DIR__ . '/../../vendor/autoload.php';
 
 use Ds\Queue;
 
@@ -33,9 +31,9 @@ $queue->push('Out');
 <section>
     <h3>clear()</h3>
     <?php
-    $copy = $queue->copy();
-    $queue->clear();
-    ?>
+$copy = $queue->copy();
+$queue->clear();
+?>
     <pre><?php print_r($queue) ?></pre>
 </section>
 

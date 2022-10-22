@@ -2,9 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Sandbox\DataStructures;
-
-require '../vendor/autoload.php';
+require __DIR__ . '/../../vendor/autoload.php';
 
 use Ds\Stack;
 
@@ -32,9 +30,9 @@ $stack->push('Out');
 <section>
     <h3>clear()</h3>
     <?php
-    $copy = $stack->copy();
-    $stack->clear();
-    ?>
+$copy = $stack->copy();
+$stack->clear();
+?>
     <pre><?php print_r($stack) ?></pre>
 </section>
 
