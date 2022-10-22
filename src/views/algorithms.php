@@ -2,7 +2,7 @@
 
 class BinarySearch
 {
-    static function searchBinary(array $array, string $target): bool
+    static function searchBinary(array $array, string $target)
     {
         $left_limit = 0;
         $right_limit = count($array) - 1;
@@ -34,7 +34,7 @@ class BinarySearch
 
 class LinearSearch
 {
-    static function searchLinear(array $array, string $target): bool
+    static function searchLinear(array $array, string $target)
     {
         $iteration = 0;
 
