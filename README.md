@@ -1,23 +1,42 @@
 # Sandbox PHP
 
+---
+
+## Requirements
+
+- Apache Server 2.4+
+- PHP 7.4.5+
+- MySQL 8+
+
 ## Installation
 
-### Requirements
-
-- Apache Server >=2.4
-- PHP >=8.1
-
-### Local Installation
-
-Run your server on <http://localhost:8002>
+Clone the repository
 
 ```bash
-php -S localhost:8002 -t public
+git clone https://github.com/kserbouty/archive-sandbox.git
 ```
 
-## Authors
+Switch to the repository folder
 
-Karim Serbouty
+```bash
+cd archive-sandbox
+```
+
+Install all the dependencies using composer
+
+```bash
+composer install
+```
+
+Run the local server
+
+```bash
+php -S localhost:8000-t public
+```
+
+The website can be accessed on <http://localhost:8000>
+
+---
 
 ## License
 
